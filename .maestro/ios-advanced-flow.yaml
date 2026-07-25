@@ -26,7 +26,7 @@ tags:
     text: "Non existent view"
     optional: true
 - tapOn: Search Wikipedia
-- runScript: scripts/getSearchQuery.js
+- runScript: ./scripts/getSearchQuery.js
 - inputText: ${output.result}
 - eraseText
 - inputText: qwerty

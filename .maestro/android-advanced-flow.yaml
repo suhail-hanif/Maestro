@@ -10,7 +10,7 @@ tags:
 - tapOn:
     text: "Non existent view"
     optional: true
-- runScript: scripts/getSearchQuery.js
+- runScript: ./scripts/getSearchQuery.js
 - inputText: ${output.result}
 - assertVisible: ${output.result}
 - runFlow: subflows/launch-clearstate-android.yaml
