@@ -1,4 +1,4 @@
-appId: org.Wikipedia
+appId: org.wikipedia
 ---
 - launchApp:
     clearState: true
