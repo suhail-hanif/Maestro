@@ -34,8 +34,6 @@ Maestro
 
 ---
 
-## Running Tests Locally
-
 ### Prerequisites
 
 Install Maestro:
