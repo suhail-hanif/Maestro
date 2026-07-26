@@ -1,0 +1,20 @@
+appId: org.wikipedia
+---
+- launchApp:
+    clearState: true
+- assertVisible:
+    id: "org.wikipedia:id/fragment_onboarding_forward_button"
+- tapOn:
+    id: "org.wikipedia:id/fragment_onboarding_forward_button"
+- assertVisible:
+    text: "New ways to explore"
+- tapOn:
+    id: "org.wikipedia:id/fragment_onboarding_forward_button"
+- assertVisible:
+    text: "Reading lists with sync"
+- tapOn:
+    id: "org.wikipedia:id/fragment_onboarding_forward_button"
+- assertVisible:
+    text: "Send Anonymous Data"
+- tapOn:
+    id: "org.wikipedia:id/fragment_onboarding_done_button"
